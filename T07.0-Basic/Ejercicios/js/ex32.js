@@ -1,0 +1,1 @@
+// Escribe un programa que solicite al usuario ingresar un número y luego calcule el factorial de ese número utilizando un bucle `for`, una condición `if` y una variable acumuladora.

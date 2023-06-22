@@ -1,0 +1,1 @@
+// Escribe un programa que solicite al usuario ingresar una palabra y luego cuente y muestre en la consola la cantidad de vocales que tiene la palabra utilizando un bucle `for`, una condición `if` y una variable contador.
