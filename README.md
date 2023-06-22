@@ -19,4 +19,16 @@
 * ex14: Crear array de objetos y mostrar las propiedades.
 * ex15: 
 
-
+## T07.2 - Funciones
+* ex01: Calcular áreas (circulo, triangulo, cuadrado).
+* ex02: Calcular numero aleatorios.
+* ex03: Saber si un numero es primo o no.
+* ex04: Calcular el factorial de un numero.
+* ex05: De decimal a binario.
+* ex06: Contar nº de cifras de un numero.
+* ex07: 
+* ex08: 
+* ex09: 
+* ex10: 
+* ex11: 
+* ex12: 
