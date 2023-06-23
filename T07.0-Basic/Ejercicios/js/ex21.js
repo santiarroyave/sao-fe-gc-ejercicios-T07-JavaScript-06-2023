@@ -1,17 +1,15 @@
 // Realiza un programa que solicite al usuario ingresar un número y muestre en la consola la multiplicación de todos los números enteros positivos menores o iguales a ese número utilizando un bucle `do...while`
 
-// let numero = prompt("Ej.21: Ingrese un numero");
+let numero = prompt("Ej.21: Ingrese un numero");
 
-// let i = 1;
-// let x = 0;
-// do {
+let i = 1;
+let multiplicacion = 1;
 
-    
-//     x = i;
-//     console.log(`La X es ${x}`);
-//     i++;
-//     console.log(`La i es ${i}`);
+do {
+    multiplicacion *= i;
+    i++;
+} while (i <= numero);
 
 
-//     console.log(i*x);
-// } while (i <= numero);
+console.log(multiplicacion);
+alert(multiplicacion);
