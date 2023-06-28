@@ -51,7 +51,7 @@
 * ex12: Array de objetos y mostrar la misma propiedad de cada uno de los objetos.
 * ex13: Crear objeto y mostrar sus propiedades.
 * ex14: Crear array de objetos y mostrar las propiedades.
-* ex15: 
+* ex15: Crear clase Receta, añadirlas a un array y leerlas.
 
 ## T07.2 - Funciones
 * ex01: Calcular áreas (circulo, triangulo, cuadrado).
