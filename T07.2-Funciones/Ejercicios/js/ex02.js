@@ -7,9 +7,9 @@
 alert("Ejercicio 2/12: Numeros aleatorios");
 
 // VARIABLES
-let cantidad = prompt("¿Cuántos numeros aleatorios deseas?");
-let minimo = prompt("Indica el rango minimo");
-let maximo = prompt("Indica el rango maximo");
+let cantidad = parseInt(prompt("¿Cuántos numeros aleatorios deseas?"));
+let minimo = parseInt(prompt("Indica el rango minimo"));
+let maximo = parseInt(prompt("Indica el rango maximo"));
 
 
 // FUNCIONES
@@ -23,7 +23,7 @@ const calcularAleatorios = (min,max,cant) => {
     let listaNumeros = [];
 
     for (let i = 0; i < cant; i++) {
-        listaNumeros[i] = Math.floor(Math.random()*(max-min)+min);
+        listaNumeros[i] = Math.floor(Math.random()*(max-min+1)+min);
     }
 
     console.log(listaNumeros);
@@ -32,7 +32,3 @@ const calcularAleatorios = (min,max,cant) => {
 
 // PROGRAMA
 alert(calcularAleatorios(minimo,maximo,cantidad));
-
-
-
-// A REVISAR!!!! : LA FORMULA NO FUNCIONA BIEN, NO COGE BIEN LOS RANGOS
