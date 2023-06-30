@@ -60,9 +60,9 @@
 * ex04: Calcular el factorial de un numero.
 * ex05: De decimal a binario.
 * ex06: Contar nº de cifras de un numero.
-* ex07: 
-* ex08: 
-* ex09: 
-* ex10: 
-* ex11: 
-* ex12: 
+* ex07: Cambio de divisas.
+* ex08: Lista rellena con nums del prompt.
+* ex09: Lista rellena con nums aleatorios entre 0-9.
+* ex10: Lista rellena con nums aleatorios primos.
+* ex11: Multiplicar listas rellenas con nums aleatorios.
+* ex12: Mostrar valores de una lista aleatoria que acaban con el digito que elijamos.

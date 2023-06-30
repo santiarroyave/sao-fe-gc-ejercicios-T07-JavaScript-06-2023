@@ -9,45 +9,24 @@ alert("Ejercicio 6/12: Contar numero de cifras");
 let numero = prompt("Por favor indique un numero entero positivo para contar las cifras que tiene");
 
 // FUNCIONES
-
-const contarCifras = (valor) => {
-    cifras = valor.toString().length;
-
-    console.log("Cifras: " + cifras);
-    return cifras;
+const contarCifras = (num) => {
+    if (num == "" | num == null){
+        return "(numero no válido)";
+    }else{
+        numEntero = parseInt(num);
+        
+        if(numEntero > 0){
+            cifras = numEntero.toString().length;
+            return cifras;
+        }else{
+            return "(numero no válido)";
+        }
+    }
 };
 
-const controlar = (valor) => {
-    // Es un numero?
-    console.log(valor.isNumeric);
-
-    // Es entero?
-    
-    // Es positivo?
-
-
-};
-const esNumero = (valor) => {};
-const esEntero = (valor) => {};
-const esPositivo = (valor) => {};
 
 
 // PROGRAMA
+console.log("Numero de cifras: " + contarCifras(numero));
+alert("Numero de cifras: " + contarCifras(numero));
 
-// alert(controlar(numero));
-console.log("hola")
-console.log(numero.isNumeric);
-
-// esNumero(); // true/false
-// esEntero(); // true/false
-// esPositivo(); // true/false
-
-// if(controlar(numero) != false){
-//     alert(contarCifras(numero));
-    
-// }else{
-//     alert("No has introducido un valor correcto");
-// }
-
-
-// alert(contarCifras(numero));
